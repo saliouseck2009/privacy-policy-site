@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support — Wolof Quran</title>
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background: #ffffff;
+            color: #6e6e73;
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 40px 24px 60px;
+        }
+
+        .lang-switcher {
+            display: flex;
+            justify-content: flex-end;
+            gap: 8px;
+            margin-bottom: 48px;
+        }
+
+        .lang-switcher a {
+            display: inline-block;
+            padding: 6px 14px;
+            border-radius: 980px;
+            font-size: 13px;
+            font-weight: 500;
+            text-decoration: none;
+            color: #1d1d1f;
+            background: #f5f5f7;
+            transition: background 0.2s;
+        }
+
+        .lang-switcher a:hover {
+            background: #e8e8ed;
+        }
+
+        .lang-switcher a.active {
+            background: #1d1d1f;
+            color: #ffffff;
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: 700;
+            color: #1d1d1f;
+            letter-spacing: -0.5px;
+            margin-bottom: 12px;
+        }
+
+        .intro {
+            font-size: 17px;
+            color: #1d1d1f;
+            margin-bottom: 40px;
+        }
+
+        section {
+            padding: 32px 0;
+            border-top: 1px solid #e5e5e7;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #1d1d1f;
+            margin-bottom: 16px;
+        }
+
+        h3 {
+            font-size: 16px;
+            font-weight: 600;
+            color: #1d1d1f;
+            margin-bottom: 6px;
+        }
+
+        .faq-item {
+            margin-bottom: 24px;
+        }
+
+        .faq-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .email-link {
+            display: inline-block;
+            margin-top: 16px;
+            padding: 10px 24px;
+            border-radius: 980px;
+            font-size: 15px;
+            font-weight: 600;
+            text-decoration: none;
+            background: #0071e3;
+            color: #ffffff;
+            transition: background 0.2s;
+        }
+
+        .email-link:hover {
+            background: #0062c4;
+            text-decoration: none;
+        }
+
+        a {
+            color: #0071e3;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 48px;
+            padding-top: 32px;
+            border-top: 1px solid #e5e5e7;
+            font-size: 13px;
+            color: #aeaeb2;
+            text-align: center;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 26px;
+            }
+
+            .container {
+                padding: 28px 20px 48px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="lang-switcher">
+            <a href="index.html" class="active">English</a>
+            <a href="fr.html">Fran&ccedil;ais</a>
+            <a href="ar.html">العربية</a>
+        </nav>
+
+        <h1>Support — Wolof Quran</h1>
+        <p class="intro">Need help with Wolof Quran? We're here to assist you.</p>
+
+        <section>
+            <h2>Get in touch</h2>
+            <p>For any question, bug report, or suggestion, send us an email. To help us assist you faster, please include:</p>
+            <p style="margin-top: 12px;">
+                &bull; Your device model (e.g. iPhone 14, Samsung Galaxy S23)<br>
+                &bull; Your OS version (e.g. iOS 17.4, Android 14)<br>
+                &bull; The app version (found in Settings &gt; About)<br>
+                &bull; A clear description of the issue
+            </p>
+            <a href="mailto:saliouseck2009@gmail.com" class="email-link">saliouseck2009@gmail.com</a>
+        </section>
+
+        <section>
+            <h2>Frequently asked questions</h2>
+
+            <div class="faq-item">
+                <h3>How do I download audio?</h3>
+                <p>Go to Settings &gt; Audio &amp; Tafsir Authors, select a reciter, then download the surahs you want. An internet connection is required for the first download.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Audio is not playing?</h3>
+                <p>Make sure the surah is downloaded, check your volume, and try restarting the app. If the issue persists, delete the audio and re-download it.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>How do I change the app language?</h3>
+                <p>Go to Settings &gt; Language and choose your preferred language.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>How do I report a bug?</h3>
+                <p>Send an email to the address above with a description of the problem, your device model, and the app version (found in Settings &gt; About).</p>
+            </div>
+        </section>
+
+        <footer>
+            <p>Saliou Seck &mdash; Wolof Quran</p>
+            <p style="margin-top: 8px;"><a href="../index.html">Privacy Policy</a></p>
+        </footer>
+    </div>
+</body>
+</html>
